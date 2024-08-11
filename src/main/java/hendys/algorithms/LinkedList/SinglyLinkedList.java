@@ -1,6 +1,6 @@
-package hendys.algorithms;
+package hendys.algorithms.LinkedList;
 
-public class SingleLinkedList<T> implements Iterable<T> {
+public class SinglyLinkedList<T> implements Iterable<T> {
     private int size = 0;
     private Node<T> head = null;
     private Node<T> tail = null;

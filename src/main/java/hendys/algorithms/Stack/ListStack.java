@@ -1,13 +1,13 @@
-package hendys.algorithms;
+package hendys.algorithms.Stack;
 
-public class Stack<T> implements Iterable<T> {
+public class ListStack<T> implements Iterable<T>, Stack<T> {
     private java.util.LinkedList<T> list = new java.util.LinkedList<T>();
 
     // Create an empty stack
-    public Stack() {}
+    public ListStack() {}
 
-    // Create a Stack with an initial element
-    public Stack(T firstElem) {
+    // Create a ListStack with an initial element
+    public ListStack(T firstElem) {
         push(firstElem);
     }
 
